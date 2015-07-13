@@ -18,10 +18,10 @@ Hướng dẫn sử dụng:
     
 3. Import libraries
 	- Tất cả thư viện nằm trong folder lib
-	- Import vào trong mục libraries của Netbean (ngoại trừ <b>reports.jasper</b>
+	- Import vào trong mục libraries của Netbean (ngoại trừ <b>reports.jasper</b>)
 
 4. Tài khoản truy cập vào ứng dụng: admin / admin 
 	- Có thể thay đổi sau khi đăng nhập.
-	
+Blog: blog.hungdh.me	
 Comming soon ...
 		
