@@ -1,5 +1,6 @@
 # Test-Quiz-Client-Server
 Hướng dẫn sử dụng:
+
 1. Khởi tạo CSDL
 	- Bật SQL Express 2008 R2
 	- Import CSDL từ file TracNghiem.mdf
