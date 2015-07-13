@@ -1,16 +1,23 @@
 # Test-Quiz-Client-Server
+Hướng dẫn sử dụng:
 1. Khởi tạo CSDL
 	- Bật SQL Express 2008 R2
-	- Import CSDL từ file TracNghiem.mdf hoặc restore từ TracNghiem.bak
+	- Import CSDL từ file TracNghiem.mdf
 
-2. Config kết nối đến SQL Server
+2. Kết nối CSDL
+  * Tại Server:
+	- Mở file database.properties để chỉnh sửa thông tin cấu hình
 	- Mặc định username: sa
 	- Password: 123456
 	- Port: 1433
-	Nếu thay đổi thì vào file DatabaseConnect để chỉnh sửa.
 	
-3. Khi sử dụng App trên IDE nhớ import sqljdbc4.jar vào mục Libraries
+  * Tại Client:
+    - Mở file config.properties
+    - Chỉnh sửa ip address và port kết nối tới server
+    
+3. Import libraries
 	- Tất cả thư viện nằm trong folder lib
+	- Import vào trong mục libraries của Netbean (ngoại trừ <b>reports.jasper</b>
 
 4. Tài khoản truy cập vào ứng dụng: admin / admin 
 	- Có thể thay đổi sau khi đăng nhập.
